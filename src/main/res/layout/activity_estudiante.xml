@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc_18.evaluacion_moviles.EstudianteActivity">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/NombreEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:singleLine="false" />
+
+        <EditText
+            android:id="@+id/CodigoEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Codigo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/MateriaEst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Materia"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/PrimerParcial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Primer Parcial: 30%"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/SegundoParcial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Segundo Parcial: 30%"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/TercerParcial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tercer Parcial: 40%"
+            android:inputType="textPersonName"
+            android:singleLine="false" />
+
+        <Button
+            android:id="@+id/Guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
